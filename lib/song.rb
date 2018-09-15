@@ -38,6 +38,6 @@ class Song
     end
 
   def self.alphabetical
-    @@all.sort {|a,b|}
+    self.sort {|a,b|}
   end
 end
