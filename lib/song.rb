@@ -38,6 +38,6 @@ class Song
       return name
     elsif !self.find_by_name
       self.create_by_name
-    end 
+    end
   end 
 end
